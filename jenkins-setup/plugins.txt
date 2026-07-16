@@ -1,0 +1,12 @@
+workflow-aggregator
+pipeline-stage-view
+git
+github
+github-branch-source
+credentials
+matrix-auth
+job-dsl
+docker-workflow
+workflow-basic-steps
+workflow-job
+workflow-cps
