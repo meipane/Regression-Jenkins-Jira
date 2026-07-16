@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   parameters {
-    string(name: 'XRAY_PROJECT_KEY',   defaultValue: 'SCRUM',  description: 'Xray Project Key (wajib)')
+    string(name: 'XRAY_PROJECT_KEY',   defaultValue: 'RJJ',  description: 'Xray Project Key (wajib)')
     string(name: 'XRAY_TESTPLAN_KEY',  defaultValue: '',     description: 'Opsional: Test Plan Key')
   }
   environment {

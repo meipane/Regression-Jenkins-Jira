@@ -1,7 +1,7 @@
 pipeline {
   agent { docker { image 'ci-agent' } }
   parameters {
-    string(name: 'XRAY_PROJECT_KEY',  defaultValue: 'SCRUM',  description: 'Xray Project Key')
+    string(name: 'XRAY_PROJECT_KEY',  defaultValue: 'RJJ',  description: 'Xray Project Key')
     string(name: 'XRAY_TESTPLAN_KEY', defaultValue: '',     description: 'Opsional: Test Plan Key (kosongkan jika tidak dipakai)')
   }
   environment {
