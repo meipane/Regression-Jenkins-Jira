@@ -10,6 +10,7 @@ public class BaseTest {
     protected static WebDriver driver;
 
     public static void initializeDriver() {
+
         if (driver == null) {
 
             WebDriverManager.chromedriver().setup();
@@ -18,7 +19,7 @@ public class BaseTest {
             options.addArguments("--headless=new");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--disable-gpu");
 
             driver = new ChromeDriver(options);
         }
