@@ -6,7 +6,7 @@
   },
   "item": [
     {
-      "name": "Google Home Page",
+      "name": "Saucedemo",
       "request": {
         "method": "GET",
         "header": [],
